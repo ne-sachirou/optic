@@ -1,0 +1,26 @@
+/.fetch
+
+
+# Created by https://www.gitignore.io/api/erlang,elixir
+
+### Elixir ###
+/_build
+/cover
+/deps
+/doc
+erl_crash.dump
+*.ez
+
+### Elixir Patch ###
+### Erlang ###
+.eunit
+deps
+*.o
+*.beam
+*.plt
+ebin/*.beam
+rel/example_project
+.concrete/DEV_MODE
+.rebar
+
+# End of https://www.gitignore.io/api/erlang,elixir

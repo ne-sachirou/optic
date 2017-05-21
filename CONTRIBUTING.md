@@ -1,0 +1,1 @@
+`mix lint && mix test`
